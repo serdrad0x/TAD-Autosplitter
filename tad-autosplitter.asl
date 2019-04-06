@@ -11,6 +11,7 @@ state("game-windows-alpha"){
 }
 
 init{
+  refreshRate = 15;
   // Get path to log file
   var page = modules.First();
   var gameDir = Path.GetDirectoryName(page.FileName);
